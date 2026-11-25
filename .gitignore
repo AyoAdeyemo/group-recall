@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Personal WhatsApp data
+data/raw/*
+data/processed/*
+data/sample/*
+
+# Keep directory structures
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+
+# Vector databases and local indexes
+chroma_db/
+*.sqlite
+*.db
+
+# IDE
+.vscode/
